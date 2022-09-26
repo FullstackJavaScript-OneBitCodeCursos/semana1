@@ -6,8 +6,21 @@
 .container {
   background-color: darkgray;
   min-height: 100vh;
+
+  display: flex;
+  gap: 1rem;
+
+  justify-content: center;
+  align-items: stretch;
+
+  flex-wrap: wrap;
 }
+
 .item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   width: 200px;
   height: 200px;
   border: 2px solid black;
