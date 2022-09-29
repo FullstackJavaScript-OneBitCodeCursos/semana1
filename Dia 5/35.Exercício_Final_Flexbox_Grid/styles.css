@@ -29,14 +29,52 @@ header .links ul {
 
 header .links li {
   cursor: pointer;
+  padding: 8px 0;
 }
+
 header .links li:hover {
+  border-bottom: 1px solid #fff;
+}
+
+.container {
+  padding: 1.5rem 3rem;
+  background-color: red;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #292929;
+  padding: 1.5rem 3rem;
+}
+
+footer img {
+  width: 200px;
+}
+
+footer .links ul {
+  display: flex;
+  color: #fff;
+  list-style: none;
+  gap: 2rem;
+}
+
+footer .links li:hover {
+  border-bottom: 1px solid #fff;
+}
+
+footer .links li {
+  cursor: pointer;
+  text-transform: uppercase;
+  padding: 8px 0;
 }
 
 @media (max-width: 768px) {
   header {
     flex-direction: column;
   }
+
   header img {
     width: 200px;
     margin-bottom: 1rem;
