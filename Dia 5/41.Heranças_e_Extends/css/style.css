@@ -1,0 +1,27 @@
+.btn, .sem-classe {
+  width: 125px;
+  padding: 10px 0;
+  border-radius: 20px;
+  display: block;
+  margin-top: 10px;
+  border: 1px solid transparent;
+}
+.btn.btn-roxo, .btn-roxo.sem-classe {
+  background-color: purple;
+  color: #fff;
+}
+.btn.btn-amarelo, .btn-amarelo.sem-classe {
+  background-color: yellow;
+  color: #000;
+}
+.btn.btn-azul, .btn-azul.sem-classe {
+  background-color: blue;
+  color: #fff;
+}
+
+.sem-classe {
+  background-color: green;
+  color: #fff;
+}
+
+/*# sourceMappingURL=style.css.map */

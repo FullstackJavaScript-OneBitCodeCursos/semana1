@@ -1,0 +1,27 @@
+$colorvariavel: green;
+$tamanhovariavel: 16px;
+
+@mixin text-style($color, $font-size, $font-family) {
+  color: $color;
+  font-size: $font-size;
+  font-family: $font-family;
+
+  border: 1px solid #eee;
+  border-radius: 4px;
+  padding: 1rem;
+  display: block;
+}
+
+.texts {
+  h1 {
+    @include text-style(#ff4046, 34px, Arial);
+  }
+
+  p {
+    @include text-style(blue, 22px, sans-serif);
+  }
+
+  .item-com-variavel {
+    @include text-style($colorvariavel, tamanhovariavel, Arial);
+  }
+}

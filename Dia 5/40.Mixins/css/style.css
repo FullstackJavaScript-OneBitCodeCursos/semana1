@@ -1,0 +1,29 @@
+.texts h1 {
+  color: #ff4046;
+  font-size: 34px;
+  font-family: Arial;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  padding: 1rem;
+  display: block;
+}
+.texts p {
+  color: blue;
+  font-size: 22px;
+  font-family: sans-serif;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  padding: 1rem;
+  display: block;
+}
+.texts .item-com-variavel {
+  color: green;
+  font-size: tamanhovariavel;
+  font-family: Arial;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  padding: 1rem;
+  display: block;
+}
+
+/*# sourceMappingURL=style.css.map */

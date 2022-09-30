@@ -1,0 +1,32 @@
+// As classes que estão dentro de btn estão herdadando os valores debtn por nesting
+// Já o item de fora está herdando  os valores de btn pelo @extend chamando a classe
+
+.btn {
+  width: 125px;
+  padding: 10px 0;
+  border-radius: 20px;
+  display: block;
+  margin-top: 10px;
+  border: 1px solid transparent;
+
+  &.btn-roxo {
+    background-color: purple;
+    color: #fff;
+  }
+
+  &.btn-amarelo {
+    background-color: yellow;
+    color: #000;
+  }
+
+  &.btn-azul {
+    background-color: blue;
+    color: #fff;
+  }
+}
+
+.sem-classe {
+  @extend .btn;
+  background-color: green;
+  color: #fff;
+}
